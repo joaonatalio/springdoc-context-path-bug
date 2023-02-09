@@ -1,0 +1,16 @@
+logging:
+  level:
+    org:
+      springframework: DEBUG
+        
+server:
+  port: 8080
+  forward-headers-strategy: framework
+  servlet:
+    context-path: /petstore
+
+springdoc:
+  api-docs:
+    path: /swagger/api-docs
+  swagger-ui:
+    path: /swagger/swagger-ui.html
